@@ -38,7 +38,7 @@
     <title> Machine Learning For Self Driving Cars </title>
 
     <!--HEADING-->
-    <div class="text-center" style="color: #fff">
+    <div class="text-center" style="color:#fff">
        
         <h1 class = "mx-auto md-auto">Imagine The Future</h1>
         
@@ -48,7 +48,7 @@
         
     </div>
 </div>
-    <div class="Navbar" style = "color: #fff">
+    <div class="Navbar" style = "color: #fff"; >
         <!--NAVIGATION-->
         <nav class="nav nav-pills nav-fill">
             
