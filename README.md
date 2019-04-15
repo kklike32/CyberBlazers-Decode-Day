@@ -1,2 +1,193 @@
 # CyberBullies-Decode-Day
 decode day 4/14/19
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+      
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+    body, html {
+      height: 100%;
+      color: white;
+    }
+    
+    #parallax { 
+      /* The image used */
+      background-image: url("https://images.unsplash.com/photo-1457364983758-510f8afa9f5f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+    
+      /* Full height */
+      height: 130%; 
+      width: 130%;
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    </style>
+
+<!-- Container element -->
+<div id="parallax">
+
+    <!-- Bootstrap CSS -->
+    <title> Machine Learning For Self Driving Cars </title>
+
+    <!--HEADING-->
+    <div class="text-center" style="color: #fff">
+       
+        <h1 class = "mx-auto md-auto">Imagine The Future</h1>
+        
+        <h3>Safer Streets</h3>
+        
+        <h5>By: Keenan K., Anshul K., Ridhi K., Shree K. </h5>
+        
+    </div>
+</div>
+    <div class="Navbar" style = "color: #fff">
+        <!--NAVIGATION-->
+        <nav class="nav nav-pills nav-fill">
+            
+            <a class="nav-item nav-link" href="#objective">Objective</a>
+        
+            <a class="nav-item nav-link" href="#detail">How It Works</a>
+            
+            <a class="nav-item nav-link" href="Kalra_Resume.html">Simulation</a>
+              
+            <a class="nav-item nav-xalink" href="Kalra_ContactMe.html">Contact Us</a>
+        </nav>
+           
+    </div>
+
+  </head>
+
+  <body background="https://images.unsplash.com/photo-1508361727343-ca787442dcd7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1465&q=80">
+    
+    <!--MAIN CONTENT OF PAGE-->
+    <section class="main text-center" style="color: #fff">
+            
+        <div class="parallax">
+          
+            <div class="row">
+                <!-- What inspired us to pursue the topic/ Who are we-->
+                <p>  Two years ago, the cousin of one of our teammates
+                had gotten into a car accident resulting in her death, and with the buzz of
+                self-driving cars circulating the community, we decided
+                to create a simulation of a self driving car. 
+                
+                <!-- who we are -->
+                <br><br>
+                We are a team of high schoolers from Dublin High School
+                focusing on coding solutions that applies to our everyday lives.
+                We are highly motivated to secure a job in the 
+                computer science field and believe that we have the abilities and 
+                substantial support of teachers and parents to purse this career.
+                Some of the abilities which have helped us are having leadership 
+                skills, being a team player, and an ambitious learner. 
+                
+                <br><br>
+                   
+            </p>
+            </div>
+      
+        </div>
+        
+        <div class="container">
+            
+            <div class="card col-md-5 flex-md-row mx-auto" id="objective">
+                
+                <div class="card-body">
+                    
+                    <h4 style="color: #b84c2b">Objective</h4>
+                        
+                    <h5>GOALS</h5>
+                    
+                </div>
+                    
+            </div>
+
+            <div class="card col-md-5 flex-md-row mx-auto" id="details">
+                
+                <div class="card-body">
+                    
+                    <h4 style="color: #b84c2b">How It Works</h4>
+                        
+                    <h5>We created a custom framework network architecture. Using this 
+                        architecture, we were able to create a 3-layered feed forward 
+                        framework network which would be used to determine the direction</h5>
+                    
+                </div>
+                    
+            </div>
+
+        </div>
+
+        <h5>
+            <a href="#parallax">Back to the Lobby</a>
+        </h5>
+    </section>
+
+
+    <!--FOOTER-->
+    <footer class="parallax" style="color: #000" >
+        
+        <hr>
+        
+        <div class="jumbotron" background="https://images.unsplash.com/photo-1550353127-b0da3aeaa0ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80">
+            
+            <center>
+                
+                <h5>
+                    
+                    <a href="Kalra_AboutMe.html">
+                    Team Car
+                    </a>
+                    
+                    &nbsp &nbsp-&nbsp &nbsp Dublin, California 
+                    
+                    
+                    <a href="Kalra_ContactMe.html">
+                    Contact Us
+                    </a>
+                
+                </h5>
+            
+            </center>
+            
+            <center>
+                
+                <p>&copy; 2019 Keenan K., Anshul K., Ridhi K., Shree K.</p>
+            
+            </center>
+            
+            <!--GOOGLE TRANSLATE-->
+            <center>
+              
+                <div id="google_translate_element"></div>
+            
+            </center>
+            
+            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+            
+            </script>
+            
+            <script>
+            
+            function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+            }
+            
+            </script>
+            
+        </div>
+        
+    </footer>
+
+  </body>
